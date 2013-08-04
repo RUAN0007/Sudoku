@@ -14,6 +14,8 @@
 @property int district;
 
 -(id)initWithDistrict:(int)district Row:(int)row Column:(int) col;
-
+-(int)rowAsWhole;
+-(int)columnAsWhole;
++(Sudoku_Index *)Sudoku_IndexAtRow:(int)row Column:(int)column;
 
 @end

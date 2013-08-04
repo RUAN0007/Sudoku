@@ -11,6 +11,7 @@
 		928998F217ADE6B800B4B4AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 928998F117ADE6B800B4B4AE /* main.m */; };
 		928998F617ADE6B800B4B4AE /* Sudoku.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 928998F517ADE6B800B4B4AE /* Sudoku.1 */; };
 		928998FE17ADE7CE00B4B4AE /* Sudoku_Index.m in Sources */ = {isa = PBXBuildFile; fileRef = 928998FD17ADE7CE00B4B4AE /* Sudoku_Index.m */; };
+		9289990117ADEA9B00B4B4AE /* Sudoku_Solver.m in Sources */ = {isa = PBXBuildFile; fileRef = 9289990017ADEA9A00B4B4AE /* Sudoku_Solver.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		928998F517ADE6B800B4B4AE /* Sudoku.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Sudoku.1; sourceTree = "<group>"; };
 		928998FC17ADE7CE00B4B4AE /* Sudoku_Index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sudoku_Index.h; sourceTree = "<group>"; };
 		928998FD17ADE7CE00B4B4AE /* Sudoku_Index.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sudoku_Index.m; sourceTree = "<group>"; };
+		928998FF17ADEA9A00B4B4AE /* Sudoku_Solver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sudoku_Solver.h; sourceTree = "<group>"; };
+		9289990017ADEA9A00B4B4AE /* Sudoku_Solver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sudoku_Solver.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,8 @@
 				928998F117ADE6B800B4B4AE /* main.m */,
 				928998FC17ADE7CE00B4B4AE /* Sudoku_Index.h */,
 				928998FD17ADE7CE00B4B4AE /* Sudoku_Index.m */,
+				928998FF17ADEA9A00B4B4AE /* Sudoku_Solver.h */,
+				9289990017ADEA9A00B4B4AE /* Sudoku_Solver.m */,
 				928998F517ADE6B800B4B4AE /* Sudoku.1 */,
 				928998F317ADE6B800B4B4AE /* Supporting Files */,
 			);
@@ -146,6 +151,7 @@
 			files = (
 				928998F217ADE6B800B4B4AE /* main.m in Sources */,
 				928998FE17ADE7CE00B4B4AE /* Sudoku_Index.m in Sources */,
+				9289990117ADEA9B00B4B4AE /* Sudoku_Solver.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
