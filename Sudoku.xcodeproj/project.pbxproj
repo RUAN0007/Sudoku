@@ -10,6 +10,7 @@
 		928998EF17ADE6B800B4B4AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928998EE17ADE6B800B4B4AE /* Foundation.framework */; };
 		928998F217ADE6B800B4B4AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 928998F117ADE6B800B4B4AE /* main.m */; };
 		928998F617ADE6B800B4B4AE /* Sudoku.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 928998F517ADE6B800B4B4AE /* Sudoku.1 */; };
+		928998FE17ADE7CE00B4B4AE /* Sudoku_Index.m in Sources */ = {isa = PBXBuildFile; fileRef = 928998FD17ADE7CE00B4B4AE /* Sudoku_Index.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		928998F117ADE6B800B4B4AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		928998F417ADE6B800B4B4AE /* Sudoku-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sudoku-Prefix.pch"; sourceTree = "<group>"; };
 		928998F517ADE6B800B4B4AE /* Sudoku.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Sudoku.1; sourceTree = "<group>"; };
+		928998FC17ADE7CE00B4B4AE /* Sudoku_Index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sudoku_Index.h; sourceTree = "<group>"; };
+		928998FD17ADE7CE00B4B4AE /* Sudoku_Index.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sudoku_Index.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				928998F117ADE6B800B4B4AE /* main.m */,
+				928998FC17ADE7CE00B4B4AE /* Sudoku_Index.h */,
+				928998FD17ADE7CE00B4B4AE /* Sudoku_Index.m */,
 				928998F517ADE6B800B4B4AE /* Sudoku.1 */,
 				928998F317ADE6B800B4B4AE /* Supporting Files */,
 			);
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				928998F217ADE6B800B4B4AE /* main.m in Sources */,
+				928998FE17ADE7CE00B4B4AE /* Sudoku_Index.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
